@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Static Web App - Azure Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 600px; /* or any height you want */
+    background-image: url('4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e8f0fe;
+    color: #333;
+}
+.scrolling-text {
+    font-size: 36px;
+    color: #0078D7; /* matches your header color */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    animation: scroll-left 12s linear infinite;
+    padding: 20px 0;
+    background-color: #e8f0fe; /* matches body background */
+    text-align: center;
+    font-weight: bold;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f0fe; /* Light smooth background */
+            color: #333;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .member {
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 400px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            color: #333;
+        }
+        .member h2 {
+            color: #0078D7;
+        }
+        .green-bg {
+            background-color: #d4edda; /* Light green */
+        }
+        .red-bg {
+            background-color: #f8d7da; /* Light red */
+        }
+        .blue-bg {
+            background-color: #d1ecf1; /* Light blue */
+        }
+        footer {
+            background-color: #333;
+            color: #ccc;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+        }
+        img {
+            width: 200px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Azure Static Web App</h1>
+</header>
+  
+<main>
+    <div class="scrolling-text">
+        Meet Our Group Members
+      </div>
+      
+
+    <div class="member green-bg">
+        <h2>Suvas Acharya</h2>
+        <p>Student ID: A00174414</p>
+        <img src="Mount-Everest.jpg" alt="Suvas Acharya">
+    </div>
+
+    <div class="member red-bg">
+        <h2>MD Farhan Mikrani</h2>
+        <p>Student ID: A00185041</p>
+        <img src="3.jpg" alt="MD Farhan Mikrani">
+    </div>
+
+    <div class="member blue-bg">
+        <h2>Vishwa Rana</h2>
+        <p>Student ID: A00173814</p>
+        <img src="2.jpg" alt="Vishwa Rana">
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Group Project - CST325 Microsoft Azure Administration</p>
+</footer>
+
+</body>
+</html>
